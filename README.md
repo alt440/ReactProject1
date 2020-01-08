@@ -47,3 +47,5 @@ Then, you can compile all your typescript files at once using:
 ```
   tsc *.ts
 ```
+
+More on Typescript in the related directory... (ts-app)
