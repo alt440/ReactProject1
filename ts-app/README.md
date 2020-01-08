@@ -89,14 +89,17 @@ module.exports = {
 ```
 
 4. Create your components and other .ts files with the extension .tsx and relate them to index.tsx
+
 index.tsx is a file that goes directly under the 'src' folder. Typescript will look for that file, and it is probably because of the 'package.json' configuration.
 
 If you want anything to appear on your page, make sure you use ReactDOM.render in that 'index.tsx' file using a reference to an object created on your html page. For example, second argument of the ReactDOM.render function could be 'document.getElementById('example')' because I have created a 'div' with id 'example' on my html page.
 
 5. Copy the html code of this project (copy index.html)
+
 The code to show a component of react should be very similar to what is in 'index.html'. That is because 'main.js' is all our Typescript converted code and the two other statements are necessary to include the React and ReactDOM modules. The empty 'div's store the content we want them to render from our 'index.tsx' file.
 
 6. Compile the project and run
+
 To compile the project, use:
 ```
 npx webpack
